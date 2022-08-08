@@ -1,0 +1,26 @@
+{
+  "name": "TOP-weather-app-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/Mattwwilson34/TOP-weather-app-2.0.git",
+  "author": "Matt Wilson <mattwwilson34@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest) --verbose --watchAll",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint --fix .  --ext .js"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^28.1.3"
+  }
+}
