@@ -10,7 +10,8 @@
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
     "test-CI": "yarn node --experimental-vm-modules $(yarn bin jest)",
     "lint": "eslint .  --ext .js",
-    "lint-fix": "eslint --fix .  --ext .js"
+    "lint-fix": "eslint --fix .  --ext .js",
+    "lint-CI": "eslint .  --ext .js"
   },
   "jest": {
     "verbose": true,
