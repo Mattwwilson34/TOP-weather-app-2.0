@@ -1,4 +1,4 @@
-import add from './index';
+import add from './index.js';
 
 describe('Test function', () => {
   it('Adds 2 numbers', () => {
